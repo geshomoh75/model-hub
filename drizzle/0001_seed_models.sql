@@ -1,0 +1,6 @@
+INSERT INTO `models` (`id`, `name`, `provider`, `upstream_model`, `input_modalities`, `output_modalities`, `context_length`, `input_price`, `output_price`, `description`, `enabled`, `created_at`, `updated_at`) VALUES
+('openai/gpt-4o-mini', 'GPT-4o mini', 'openai', 'gpt-4o-mini', 'text,image', 'text', 128000, 0.15, 0.6, 'Small, fast general-purpose model that also reads images.', 1, '2026-01-01T00:00:00.000Z', '2026-01-01T00:00:00.000Z'),
+('openai/gpt-4.1', 'GPT-4.1', 'openai', 'gpt-4.1', 'text,image', 'text', 1047576, 2, 8, 'Large model for long documents, code and careful instructions.', 1, '2026-01-01T00:00:00.000Z', '2026-01-01T00:00:00.000Z'),
+('meta-llama/llama-3.3-70b-instruct', 'Llama 3.3 70B Instruct', 'groq', 'llama-3.3-70b-versatile', 'text', 'text', 131072, 0.59, 0.79, 'Open-weight instruction model served with low latency.', 1, '2026-01-01T00:00:00.000Z', '2026-01-01T00:00:00.000Z'),
+('mistralai/mistral-small', 'Mistral Small', 'mistral', 'mistral-small-latest', 'text', 'text', 32768, 0.1, 0.3, 'Compact model for drafting, classification and short answers.', 1, '2026-01-01T00:00:00.000Z', '2026-01-01T00:00:00.000Z'),
+('google/gemini-2.0-flash', 'Gemini 2.0 Flash', 'gemini', 'gemini-2.0-flash', 'text,image', 'text', 1048576, 0.1, 0.4, 'Fast multimodal model with a very long context.', 1, '2026-01-01T00:00:00.000Z', '2026-01-01T00:00:00.000Z');
